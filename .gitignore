@@ -1,1 +1,90 @@
+# AI
+.agent/
+.claude/
+.gemini/
+.openai/
+.antigravity/
+.cursor/
+.cursorrules/
+.cursorrules.local/
+.codex/
+.codexrules/
+.codexrules.local/
+
+# Environment
 .env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# Testing
+.coverage
+.pytest_cache/
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# mypy / type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pytype/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Docker (local overrides)
+docker-compose.override.yml
+
+# Poetry
+poetry.lock

@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  test:
+    build:
+      context: .
+      dockerfile: Dockerfile.test
+    environment:
+      - OPENAI_API_KEY=test-key
+      - OPENAI_MODEL=gpt-4o-2024-08-06
